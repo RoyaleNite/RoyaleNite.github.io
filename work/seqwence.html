@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seqwence · Waldre Roos</title>
+<meta name="description" content="A video editor that runs on your own PC: a multi-track timeline, effects, motion tracking, captions and lossless exports.">
+<meta property="og:title" content="Seqwence · Waldre Roos">
+<meta property="og:description" content="A video editor that runs on your own PC: a multi-track timeline, effects, motion tracking, captions and lossless exports.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://royalenite.github.io/work/seqwence">
+<meta property="og:image" content="https://royalenite.github.io/assets/social.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#151412">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="monogram" href="/" aria-label="Waldre Roos, home">WR</a>
+  <nav aria-label="Main">
+    <a href="/#work" aria-current="page" class="hide-s">Work</a>
+    <a href="/#about" class="hide-s">About</a>
+    <a href="/contact">Contact</a>
+    <a class="button" href="mailto:hello@waldre.co.za?subject=A%20project">Start a project</a>
+  </nav>
+</header>
+<main id="main">
+<section class="case-head">
+  <h1><span class="line"><span data-line>Seqwence</span></span></h1>
+  <p class="lede" data-rise>A video editor that runs on your own PC: a multi-track timeline, effects, motion tracking, captions and lossless exports.</p>
+  <p class="facts" data-rise style="--i:1">Desktop video editor · 2026 · Source-available (FSL-1.1-MIT)</p>
+</section>
+<figure class="case-shot" data-reveal><img src="/assets/img/seqwence-editor.jpg" alt="The Seqwence editor: library, monitor, timeline and effect controls" width="1600" height="1000"></figure>
+<section class="case-body">
+  <h2 data-reveal>What it does</h2>
+  <ul class="feat">
+      <li data-reveal style="--i:0"><b>A multi-track editor</b><p>Clips, transitions, resizable track lanes, guides with snapping, and a second monitor that shows the clips as they were shot.</p></li>
+      <li data-reveal style="--i:1"><b>Effects that export as previewed</b><p>Colour and light, glow, green screen, camera shake, flash, RGB split, zoom punch, plus OpenFX, frei0r and LV2 plugins.</p></li>
+      <li data-reveal style="--i:2"><b>Motion tracking</b><p>Draw a box and an AI tracker follows the object, checking every frame against your box; Track &amp; follow keeps it centred.</p></li>
+      <li data-reveal style="--i:3"><b>Captions</b><p>Speech to text, including Afrikaans and English mixed, with animated words and text presets.</p></li>
+      <li data-reveal style="--i:4"><b>Lossless exports</b><p>Exports on the GPU (NVENC), checked frame by frame against the source.</p></li>
+      <li data-reveal style="--i:5"><b>A Windows installer</b><p>Everything included, a first-run setup, and signed updates that always ask first.</p></li>
+  </ul>
+  <h2 data-reveal>How it's made</h2>
+  <div class="prose" data-reveal>
+      <p>Seqwence started as a tool to trim and export game clips without losing any quality, and grew into a full editor. The editor runs in a browser window over a local Node server, so projects also open from a phone over your own network.</p>
+      <p>Exports are built from the same description the live preview draws, so what you see is what is exported, and every lossless export is checked against its source.</p>
+  </div>
+  <ul class="stack" aria-label="Built with" data-reveal><li>Node.js</li><li>JavaScript</li><li>WebGL</li><li>FFmpeg</li><li>Electron</li><li>ONNX Runtime</li><li>C++ (OpenFX host)</li></ul>
+</section>
+<section class="gallery" aria-label="More screens">
+  <figure data-reveal><img src="/assets/img/seqwence-tracking.jpg" alt="Track &amp; follow: the tracked object&#x27;s box and path on the monitor" width="1600" height="1000" loading="lazy"><figcaption>Track &amp; follow: the tracked object&#x27;s box and path on the monitor</figcaption></figure>
+  <figure data-reveal><img src="/assets/img/seqwence-compare.jpg" alt="Compare: the edit beside the clips as they were shot" width="1600" height="1000" loading="lazy"><figcaption>Compare: the edit beside the clips as they were shot</figcaption></figure>
+</section>
+<a class="next-case" href="/work/fit"><strong>Next: Fit →</strong></a>
+</main>
+<footer class="foot">
+  <div class="invite" data-reveal>
+    <p>Outgrown the spreadsheet?</p>
+    <a class="button dark" href="/contact">Start a project <span class="arrow" aria-hidden="true">→</span></a>
+  </div>
+  <div class="links" data-reveal style="--i:1">
+    <a href="mailto:hello@waldre.co.za">hello@waldre.co.za</a>
+    <a href="https://github.com/RoyaleNite">GitHub</a>
+    <a href="https://shifties.co.za">Shifties</a>
+    <a href="/#work">All work</a>
+  </div>
+  <div class="legal">
+    <span>© 2026 Waldre Roos · Mbombela, South Africa</span>
+    <span>Set in Instrument Serif and Instrument Sans</span>
+  </div>
+  <p class="name" aria-hidden="true">Waldre Roos</p>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
